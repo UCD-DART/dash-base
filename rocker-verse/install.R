@@ -1,0 +1,5 @@
+install.packages("remotes")
+remotes::install_github("plotly/dashR", upgrade = "always")
+install.packages("dashCoreComponents")
+install.packages("dashHtmlComponents")
+install.packages("dashTable")
